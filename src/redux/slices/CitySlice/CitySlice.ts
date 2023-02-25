@@ -3,7 +3,7 @@ import { ICity } from "../../../intarfaces/intarfaces";
 import { fetchCity } from "./thunk/FetchCity";
 
 interface IState {
-  city: ICity;
+  city: ICity | null;
   error: null | string;
   status: "loading" | "resolved" | "rejected" | null;
 }
@@ -34,7 +34,7 @@ const CitySlice = createSlice({
   name: "city",
   initialState,
   reducers: {
-    setCity(state : IState, action: PayloadAction<ICity> ) {
+    setCity(state: IState, action: PayloadAction<ICity | null>) {
       state.city = action.payload;
     },
   },

@@ -14,7 +14,7 @@ const Search: React.FC = () => {
     if (searchInput) {
       dispatch(fetchCity(searchInput));
     } else {
-      dispatch(setCity([]));
+      dispatch(setCity(null));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchInput]);
