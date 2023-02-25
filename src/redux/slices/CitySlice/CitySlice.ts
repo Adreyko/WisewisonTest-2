@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ICity } from "../../../intarfaces/intarfaces";
 import { fetchCity } from "./thunk/FetchCity";
 
@@ -34,7 +34,7 @@ const CitySlice = createSlice({
   name: "city",
   initialState,
   reducers: {
-    setCity(state, action) {
+    setCity(state : IState, action: PayloadAction<ICity> ) {
       state.city = action.payload;
     },
   },
