@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.613b5715.css","mappings":"AAAA,KACE,6IAA8I,CAC9I,qBACF","sources":["index.css"],"sourcesContent":["body {\r\n  background-image: url(https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?cs=srgb&dl=pexels-johannes-plenio-1118873.jpg&fm=jpg);\r\n  background-size: cover;\r\n}\r\n"],"names":[],"sourceRoot":""}

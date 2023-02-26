@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WisewisonTest-2/static/css/main.613b5715.css",
+    "main.js": "/WisewisonTest-2/static/js/main.ddd81117.js",
+    "index.html": "/WisewisonTest-2/index.html",
+    "main.613b5715.css.map": "/WisewisonTest-2/static/css/main.613b5715.css.map",
+    "main.ddd81117.js.map": "/WisewisonTest-2/static/js/main.ddd81117.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.613b5715.css",
+    "static/js/main.ddd81117.js"
+  ]
+}
